@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-swagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0",
+    "koa2-swagger-ui": "^5.8.0",
+    "nodemon": "^2.0.22",
+    "swagger-jsdoc": "^6.2.8"
+  }
+}
